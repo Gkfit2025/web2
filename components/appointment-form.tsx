@@ -32,7 +32,7 @@ export function AppointmentForm() {
   return (
     <section id="appointment" className="py-12 md:py-16 px-4 bg-white">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-8 text-center">Book Your Appointment</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-orange-900 mb-8 text-center">Book Your Appointment</h2>
         <p className="text-lg text-gray-700 mb-8 text-center">
           Please fill out the form below to request an appointment. Our team will contact you to confirm the details.
         </p>
@@ -96,7 +96,7 @@ export function AppointmentForm() {
             </div>
           )}
 
-          <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700" disabled={isPending}>
+          <Button type="submit" className="w-full bg-orange-600 hover:bg-orange-700" disabled={isPending}>
             {isPending ? (
               <>
                 <Loader2 className="mr-2 h-4 w-4 animate-spin" />
