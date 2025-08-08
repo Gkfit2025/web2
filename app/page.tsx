@@ -72,8 +72,8 @@ export default function GKFHospital() {
       <header className="bg-blue-900 text-white py-5 text-center sticky top-0 z-50">
         <div className="flex items-center justify-center gap-4 mb-2">
           <Image
-            src="/grace-kennett-foundation-logo.png"
-            alt="Grace Kennett Foundation Logo"
+            src="/grace-kennett-foundation-logo.webp"
+            alt="Logo.webp"
             width={60}
             height={60}
             className="rounded-full"
@@ -86,7 +86,7 @@ export default function GKFHospital() {
           <div className="ml-4">
             <Image
               src="/gkf-qr-code.png"
-              alt="QR Code for Grace Kennett Foundation"
+              alt="qrcode.webp"
               width={60}
               height={60}
               className="rounded"
@@ -99,42 +99,42 @@ export default function GKFHospital() {
       <nav className="bg-blue-950 sticky top-[88px] z-40">
         <ul className="flex justify-center flex-wrap">
           <li>
-            <Link href="#home" className="block px-4 py-4 text-white hover:bg-blue-700 transition-colors rounded">
+            <Link href="#home" className="block px-4 py-4 text-white hover:bg-orange-700 transition-colors rounded">
               Home
             </Link>
           </li>
           <li>
-            <Link href="#about" className="block px-4 py-4 text-white hover:bg-blue-700 transition-colors rounded">
+            <Link href="#about" className="block px-4 py-4 text-white hover:bg-orange-700 transition-colors rounded">
               About Us
             </Link>
           </li>
           <li>
-            <Link href="#hospital" className="block px-4 py-4 text-white hover:bg-blue-700 transition-colors rounded">
+            <Link href="#hospital" className="block px-4 py-4 text-white hover:bg-orange-700 transition-colors rounded">
               Hospital
             </Link>
           </li>
           <li>
-            <Link href="#burns-centre" className="block px-4 py-4 text-white hover:bg-blue-700 transition-colors rounded">
+            <Link href="#burns-centre" className="block px-4 py-4 text-white hover:bg-orange-700 transition-colors rounded">
               Burns Centre
             </Link>
           </li>
           <li>
-            <Link href="#adoption" className="block px-4 py-4 text-white hover:bg-blue-700 transition-colors rounded">
+            <Link href="#adoption" className="block px-4 py-4 text-white hover:bg-orange-700 transition-colors rounded">
               Adoption
             </Link>
           </li>
           <li>
-            <Link href="#volunteering" className="block px-4 py-4 text-white hover:bg-blue-700 transition-colors rounded">
+            <Link href="#volunteering" className="block px-4 py-4 text-white hover:bg-orange-700 transition-colors rounded">
               Volunteering
             </Link>
           </li>
           <li>
-            <Link href="#save-a-child" className="block px-4 py-4 text-white hover:bg-blue-700 transition-colors rounded">
+            <Link href="#save-a-child" className="block px-4 py-4 text-white hover:bg-orange-700 transition-colors rounded">
               Save A Child
             </Link>
           </li>
           <li>
-            <Link href="#contact" className="block px-4 py-4 text-white hover:bg-blue-700 transition-colors rounded">
+            <Link href="#contact" className="block px-4 py-4 text-white hover:bg-orange-700 transition-colors rounded">
               Contact Us
             </Link>
           </li>
@@ -367,10 +367,15 @@ export default function GKFHospital() {
                 <div className="w-20 h-20 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Heart className="w-10 h-10 text-blue-600" />
                 </div>
-                <CardTitle className="text-blue-600">Dr. Grace Kennett</CardTitle>
+                <CardTitle className="text-blue-600">Dr (Capt) Augustus Samuel Dodd M.S., M.B.A.</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 font-medium">Founder & Chief Medical Officer</p>
+                <p className="text-gray-600 font-medium">Chief Executive Officer. He has served in the Indian Army as a Medical Officer. He is a surgeon. He is the Medical Superintendent of GKF Hospital, Project Correspondent of GKF Mazhalai Illam, and the Director of GKF Community College.
+
+Medical Council Regd No: 39153.
+a_s_dodd@hotmail.com
+
+</p>
               </CardContent>
             </Card>
 
@@ -451,7 +456,7 @@ export default function GKFHospital() {
               <p className="text-gray-700">+91 452 2607767<br />+91 99865 40401</p>
             </div>
             <div className="flex flex-col items-center">
-              <Mail className="w-8 h-8 text-blue-600 mb-2" />
+              <Mail className="w-8 h-8 text-orange-600 mb-2" />
               <p className="text-gray-700">info@gkfmadurai.in</p>
             </div>
           </div>
