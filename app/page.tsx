@@ -377,7 +377,7 @@ export default function GKFHospital() {
             <Card className="hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
               <CardHeader className="text-center">
                 <div className="w-20 h-20 bg-red-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Flame className="w-10 h-10 text-red-600" />
+                  < className="w-10 h-10 text-red-600" />
                 </div>
                 <CardTitle className="text-orange-600">Dr.Harini Nithyanatham</CardTitle>
               </CardHeader>
@@ -389,7 +389,7 @@ export default function GKFHospital() {
             <Card className="hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
               <CardHeader className="text-center">
                 <div className="w-20 h-20 bg-pink-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Baby className="w-10 h-10 text-pink-600" />
+                  <Flame className="w-10 h-10 text-pink-600" />
                 </div>
                 <CardTitle className="text-orange-600">Dr. Burra Viswa Chaitanya</CardTitle>
               </CardHeader>
@@ -401,7 +401,7 @@ export default function GKFHospital() {
             <Card className="hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
               <CardHeader className="text-center">
                 <div className="w-20 h-20 bg-green-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Users className="w-10 h-10 text-green-600" />
+                  <Tooth className="w-10 h-10 text-green-600" />
                 </div>
                 <CardTitle className="text-orange-600">Dr.Hussain</CardTitle>
               </CardHeader>
@@ -413,7 +413,7 @@ export default function GKFHospital() {
             <Card className="hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
               <CardHeader className="text-center">
                 <div className="w-20 h-20 bg-purple-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Heart className="w-10 h-10 text-purple-600" />
+                  <Baby className="w-10 h-10 text-purple-600" />
                 </div>
                 <CardTitle className="text-orange-600">Dr.Rajakumari</CardTitle>
               </CardHeader>
@@ -425,7 +425,7 @@ export default function GKFHospital() {
             <Card className="hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
               <CardHeader className="text-center">
                 <div className="w-20 h-20 bg-yellow-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Brain className="w-10 h-10 text-yellow-600" />
+                  <Ear className="w-10 h-10 text-yellow-600" />
                 </div>
                 <CardTitle className="text-orange-600">Dr.Kannappan</CardTitle>
               </CardHeader>
