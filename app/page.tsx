@@ -230,7 +230,7 @@ export default function GKFHospital() {
       </section>
 
       {/* Vision & Mission Section */}
-      <section className="py-12 md:py-16 px-4 bg-gradient-to-r from-orange-50 to-amber-50">
+      <section className="py-12 md:py-16 px-4 bg-gradient-to-r from-orange-700 to-amber-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-orange-900 mb-12 text-center">Our Vision & Mission</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -238,9 +238,9 @@ export default function GKFHospital() {
             <Card className="hover:shadow-xl transition-all duration-300 border-l-4 border-l-orange-600">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 bg-orange-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Eye className="w-8 h-8 text-orange-600" />
+                  <Eye className="w-8 h-8 text-orange-700" />
                 </div>
-                <CardTitle className="text-2xl text-orange-900">Our Vision</CardTitle>
+                <CardTitle className="text-2xl text-orange-700">Our Vision</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-700 text-lg leading-relaxed">
