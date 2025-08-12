@@ -367,10 +367,10 @@ export default function GKFHospital() {
                 <div className="w-20 h-20 bg-orange-100 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Heart className="w-10 h-10 text-orange-600" />
                 </div>
-                <CardTitle className="text-orange-600">Dr. Grace Kennett</CardTitle>
+                <CardTitle className="text-orange-600">Dr.(capt)Auguest samuel dodd</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 font-medium">Founder & Chief Medical Officer</p>
+                <p className="text-gray-600 font-medium">Founder & Medical superdent</p>
               </CardContent>
             </Card>
 
@@ -379,10 +379,10 @@ export default function GKFHospital() {
                 <div className="w-20 h-20 bg-red-100 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Flame className="w-10 h-10 text-red-600" />
                 </div>
-                <CardTitle className="text-orange-600">Dr. Rajesh Kumar</CardTitle>
+                <CardTitle className="text-orange-600">Dr.Harini Nithyanatham</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 font-medium">Burns Specialist</p>
+                <p className="text-gray-600 font-medium">Cheif Medical Officer</p>
               </CardContent>
             </Card>
 
@@ -391,10 +391,10 @@ export default function GKFHospital() {
                 <div className="w-20 h-20 bg-pink-100 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Baby className="w-10 h-10 text-pink-600" />
                 </div>
-                <CardTitle className="text-orange-600">Dr. Lakshmi Devi</CardTitle>
+                <CardTitle className="text-orange-600">Dr. Burra Viswa Chaitanya</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 font-medium">Pediatrician & Child Welfare</p>
+                <p className="text-gray-600 font-medium">Consultant & Plastic Surgen</p>
               </CardContent>
             </Card>
 
@@ -415,10 +415,10 @@ export default function GKFHospital() {
                 <div className="w-20 h-20 bg-purple-100 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Heart className="w-10 h-10 text-purple-600" />
                 </div>
-                <CardTitle className="text-orange-600">Dr. Kamala Devi</CardTitle>
+                <CardTitle className="text-orange-600">Dr.Rajakumari</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 font-medium">Community Health</p>
+                <p className="text-gray-600 font-medium">gynecologists</p>
               </CardContent>
             </Card>
 
@@ -427,10 +427,10 @@ export default function GKFHospital() {
                 <div className="w-20 h-20 bg-yellow-100 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Brain className="w-10 h-10 text-yellow-600" />
                 </div>
-                <CardTitle className="text-orange-600">Dr. Murugan</CardTitle>
+                <CardTitle className="text-orange-600">Dr.Kannappan</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 font-medium">Surgery & Emergency Care</p>
+                <p className="text-gray-600 font-medium">otolaryngologist</p>
               </CardContent>
             </Card>
           </div>
