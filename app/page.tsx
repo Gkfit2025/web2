@@ -367,10 +367,10 @@ export default function GKFHospital() {
                 <div className="w-20 h-20 bg-orange-100 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Heart className="w-10 h-10 text-orange-600" />
                 </div>
-                <CardTitle className="text-orange-600">Dr.(capt)Auguest Samuel Dodd</CardTitle>
+                <CardTitle className="text-orange-600">Dr.(capt)Auguest samuel dodd</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 font-medium">Medical Superdent</p>
+                <p className="text-gray-600 font-medium">Founder & Medical superdent</p>
               </CardContent>
             </Card>
 
@@ -403,10 +403,10 @@ export default function GKFHospital() {
                 <div className="w-20 h-20 bg-green-100 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Users className="w-10 h-10 text-green-600" />
                 </div>
-                <CardTitle className="text-orange-600">Dr.S.M.Hussian</CardTitle>
+                <CardTitle className="text-orange-600">Dr. Suresh Babu</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 font-medium">Dentist</p>
+                <p className="text-gray-600 font-medium">General Medicine</p>
               </CardContent>
             </Card>
 
