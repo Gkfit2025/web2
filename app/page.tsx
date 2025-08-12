@@ -69,7 +69,7 @@ export default function GKFHospital() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header */}
-      <header className="bg-orange-900 text-white py-5 text-center sticky top-0 z-50">
+      <header className="bg-orange-700 text-white py-5 text-center sticky top-0 z-50">
         <div className="flex items-center justify-center gap-4 mb-2">
           <Image
             src="/grace-kennett-foundation-logo.png"
@@ -96,7 +96,7 @@ export default function GKFHospital() {
       </header>
 
       {/* Navigation */}
-      <nav className="bg-orange-950 sticky top-[88px] z-40">
+      <nav className="bg-orange-700 sticky top-[88px] z-40">
         <ul className="flex justify-center flex-wrap">
           <li>
             <Link href="#home" className="block px-4 py-4 text-white hover:bg-orange-700 transition-colors rounded">
@@ -173,7 +173,7 @@ export default function GKFHospital() {
             <p className="text-lg md:text-xl mb-6 drop-shadow-lg transition-all duration-500">
               {hospitalImages[currentSlide].subtitle}
             </p>
-            <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700">
+            <Button asChild size="lg" className="bg-orange-700 hover:bg-orange-700">
               <Link href="#appointment">Book Appointment</Link>
             </Button>
           </div>
@@ -232,7 +232,7 @@ export default function GKFHospital() {
       {/* Vision & Mission Section */}
       <section className="py-12 md:py-16 px-4 bg-gradient-to-r from-orange-700 to-amber-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-orange-900 mb-12 text-center">Our Vision & Mission</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-orange-700 mb-12 text-center">Our Vision & Mission</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Vision Card */}
             <Card className="hover:shadow-xl transition-all duration-300 border-l-4 border-l-orange-600">
@@ -271,34 +271,34 @@ export default function GKFHospital() {
 
           {/* Core Values */}
           <div className="mt-12">
-            <h3 className="text-2xl font-bold text-orange-900 mb-8 text-center">Our Core Values</h3>
+            <h3 className="text-2xl font-bold text-Black-900 mb-8 text-center">Our Core Values</h3>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="w-12 h-12 bg-red-100 rounded-full mx-auto mb-3 flex items-center justify-center">
                   <Heart className="w-6 h-6 text-red-600" />
                 </div>
-                <h4 className="font-semibold text-orange-900 mb-2">Compassion</h4>
+                <h4 className="font-semibold text-Black-900 mb-2">Compassion</h4>
                 <p className="text-sm text-gray-600">Caring for every patient with empathy and kindness</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-orange-100 rounded-full mx-auto mb-3 flex items-center justify-center">
                   <Target className="w-6 h-6 text-orange-600" />
                 </div>
-                <h4 className="font-semibold text-orange-900 mb-2">Excellence</h4>
+                <h4 className="font-semibold text-Black-900 mb-2">Excellence</h4>
                 <p className="text-sm text-gray-600">Striving for the highest standards in healthcare</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-green-100 rounded-full mx-auto mb-3 flex items-center justify-center">
                   <Eye className="w-6 h-6 text-green-600" />
                 </div>
-                <h4 className="font-semibold text-orange-900 mb-2">Integrity</h4>
+                <h4 className="font-semibold text-Black-900 mb-2">Integrity</h4>
                 <p className="text-sm text-gray-600">Maintaining honesty and transparency in all we do</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-purple-100 rounded-full mx-auto mb-3 flex items-center justify-center">
                   <Brain className="w-6 h-6 text-purple-600" />
                 </div>
-                <h4 className="font-semibold text-orange-900 mb-2">Innovation</h4>
+                <h4 className="font-semibold text-Black-900 mb-2">Innovation</h4>
                 <p className="text-sm text-gray-600">Embracing cutting-edge medical technology</p>
               </div>
             </div>
@@ -465,7 +465,7 @@ export default function GKFHospital() {
       <AppointmentForm />
 
       {/* Footer */}
-      <footer className="bg-orange-950 text-white text-center py-4">
+      <footer className="bg-orange-700 text-white text-center py-4">
         <p>&copy; 2025 Grace Kennett Foundation. All rights reserved.</p>
       </footer>
     </div>
